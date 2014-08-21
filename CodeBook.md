@@ -2,6 +2,7 @@ CodeBook
 ===============================
 
 The first two variables are as follows:
+----------------------------------------------
 
 subjects	1-2  
 	subjects who take the experiments  
@@ -11,6 +12,7 @@ labels	6-18
 	labels for the 6 activities tested  
 
 Other 66 variables are named based on the following rules:
+-------------------------------------------------------------------------
 
 "t" stands for time domain signals  
 "f" stands for frequency domain signals  
@@ -27,5 +29,7 @@ Other 66 variables are named based on the following rules:
 The range for these variables is [-1, 1].
 
 Note: the following steps are done before I get this dataset:
+--------------------------------------------------------------------------
+
 1. Download the raw datasets from the Coursera web link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 2. Run the run_analysis.R code in this repo to these datasets to get the output data. 
