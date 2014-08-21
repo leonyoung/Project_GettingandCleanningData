@@ -4,12 +4,14 @@ CodeBook
 The first two variables are as follows:
 ----------------------------------------------
 
-subjects	1-2  
-	subjects who take the experiments  
-	There are 30 subjects taking the experiments  
+subjects  
+field witdth: 1-2  
+Meaning: subjects who take the experiments   
+There are 30 subjects taking the experiments  
 
-labels	6-18  
-	labels for the 6 activities tested  
+labels  
+field width: 6-18  
+Meaning: labels for the 6 activities tested  
 
 Other 66 variables are named based on the following rules:
 -------------------------------------------------------------------------
@@ -26,7 +28,7 @@ Other 66 variables are named based on the following rules:
 "mean" stands for the average value  
 "std" stands for the standard deviation  
 
-The range for these variables is [-1, 1].
+The range for these variables is [-1, 1], unit is g (9.8 m/s^2).
 
 Note: the following steps are done before I get this dataset:
 --------------------------------------------------------------------------
